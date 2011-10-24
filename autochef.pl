@@ -25,7 +25,7 @@ my @verb = qw(
 @verb = (
 	@verb,
 
-	"Brainstorma kring"
+	"Brainstorma kring",
 );
 
 my @subj = qw(
@@ -40,22 +40,16 @@ my @subj = qw(
 	SOA
 	NoSQL
 	sharepoint
-	lean IT
 	apparna
 	ASP.NET
-	grön IT
 	tjänstestrukurerna
 	MBWA
-	clean desk
 	tjänsteportföljen
-	en RFC
-	grejerna i pipen
 	turnkey-solutions
 	backlogen
 	CRM
 	polopoly
 	middleware
-	Web 2.0-tjänsterna
 	HTML5
 	CMS
 );
@@ -63,8 +57,14 @@ my @subj = qw(
 @subj = (
 	@subj,
 
-	"disaster recovery-planen"
-	"agile development"
+	"disaster recovery-planen",
+	"agile development",
+	"grejerna i pipen",
+	"Web 2.0-tjänsterna",
+	"lean IT",
+	"clean desk",
+	"en RFC",
+	"grön IT",
 );
 
 print "$verb[int(rand(@verb))] $subj[int(rand(@subj))]\n";
